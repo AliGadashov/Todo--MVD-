@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Todo App</title>
+  </head>
+  <body>
+    <div class="todoTitleDate">
+      <input
+        class="todoTitle"
+        placeholder="My new task"
+        id="todo-title"
+        type="text"
+      />
+      <input class="datePicker" id="date-picker" type="date" />
+    </div>
+    <button onclick="addTodo()">Add Todo</button>
+
+    <div class="todoList" id="todo-list"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
